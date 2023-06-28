@@ -7,4 +7,4 @@ print('tested pull and comfirm')
 #apps deployment2
 #adding apps deployment3
 #including apps deployment
-
+# bug removed
