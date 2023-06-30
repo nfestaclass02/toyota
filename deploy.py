@@ -8,3 +8,6 @@ print('tested pull and comfirm')
 #adding apps deployment3
 #including apps deployment
 # bug removed
+print('automation')
+print('please, $user your car is due for service')
+print('please, contact the nearest service center')
