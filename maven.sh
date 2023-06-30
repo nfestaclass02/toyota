@@ -7,4 +7,8 @@ echo 'we are getting used to it'
 echo 'surely this shopuld go as planned'
 #echo 'testing add branch to remote repo'
 eche check the state of the app servers
+echo 'apps ready for deployment'
+date
+$$
+$?
 
