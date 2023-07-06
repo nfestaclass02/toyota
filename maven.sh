@@ -9,6 +9,7 @@ echo 'testing add branch to remote repo'
 eche 'check the state of the app servers'
 echo 'apps ready for deployment'
 date
+free -g
 $$
 $?
 
