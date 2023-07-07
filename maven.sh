@@ -10,6 +10,7 @@ eche 'check the state of the app servers'
 echo 'apps ready for deployment'
 date
 free -g
+gf -h
 $$
 $?
 
