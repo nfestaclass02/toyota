@@ -1,0 +1,2000 @@
+   11  free -g
+   12  clear
+   13  ll
+   14  cat testing 
+   15  cat list
+   16  sort list
+   17  clear
+   18  cat /etc/passwd | grep Nelson
+   19  cat /etc/passwd | grep nelson
+   20  cat /etc/passwd | grep -i nelson
+   21  cat /etc/passwd | grep Nelson | sort
+   22  cat list | grep Nelson | sort
+   23  cat list | grep -i Nelson | sort
+   24  vim list
+   25  ll
+   26  sudo vim list
+   27  cat list | grep Nelson | sort
+   28  cat list | grep -i Nelson | sort
+   29  cat list | grep -i N | sort
+   30  cat list | grep  N | sort
+   31  cat list | grep  n | sort
+   32  clear
+   33  pwd
+   34  whoami
+   35  .
+   36  clear
+   37  \
+   38  pwd
+   39  ll
+   40  find /home/ec2-user -name testing
+   41  which news
+   42  which Nelson
+   43  which bin
+   44  which /bin
+   45  clear
+   46  pwd
+   47  find /home/ec2-user -name list
+   48  find ~ -name list
+   49  . -name list
+   50  find . -name list
+   51  pwd
+   52  cat /home/ec2-user/list
+   53  find . -empty
+   54  ll
+   55  ls -a
+   56  clear
+   57  useradd Ben
+   58  cat /etc/passwd
+   59  tail -5/etc/passwd
+   60  tail -5 /etc/passwd
+   61  cat /etc/shadow
+   62  sudo cat /etc/shadow
+   63  passwd Nelson
+   64  sudo passwd Nelson
+   65  sudo cat /etc/shadow
+   66  clear
+   67  su Nelson
+   68  ll
+   69  clear
+   70  useradd ben george susan
+   71  clear
+   72  useradd george
+   73  sudo useradd george
+   74  sudo adduser ben
+   75  tail /etc/passwd
+   76  sudo cat /etc/shadow
+   77  roupadd manager
+   78  groupadd manager
+   79  sudo groupadd manager
+   80  cat /etc/group
+   81  id Nelson
+   82  clear
+   83  sudo groupadd class02
+   84  cat /etc/group
+   85  sudo groupdel class02
+   86  cat /etc/group
+   87  clear
+   88  #sudo usermod -G managers Nelson
+   89  lid Nelson
+   90  sudo lid Nelson
+   91  id Nelson
+   92  sudo lid Nelson
+   93  sudo usermod -G managers Nelson
+   94  sudo usermod -G manager Nelson
+   95  sudo lid Nelson
+   96  id george
+   97  sudo usermod -G manager george
+   98  id george
+   99  clear
+  100  sudo -u george adduser peter
+  101  su george
+  102  passwd george
+  103  sudo passwd george
+  104  su george
+  105  sudo vi  /etc/sudoers
+  106  su george
+  107  sudo vi  /etc/sudoers
+  108  su george
+  109  sudo vi  /etc/sudoers
+  110  su george 
+  111  sudo vi  /etc/sudoers
+  112  sudo Nelson
+  113  su Nelson
+  114  clear
+  115  lscpu
+  116  mem
+  117  du
+  118  du -h
+  119  clear
+  120  hostname -i
+  121  lsblk
+  122  man
+  123  man man
+  124  man ls
+  125  man pwd
+  126  users
+  127  who
+  128  ifconfig.io
+  129  curl ifconfig.io
+  130  whereis
+  131  whereis list
+  132  whereis ssd
+  133  whereis sshd
+  134  who
+  135  w
+  136  df
+  137  clear
+  138  ls ~
+  139  pwd
+  140  ls /home
+  141  pwd
+  142  cat /etc/group
+  143    id ben
+  144  sudo lid ben
+  145  id Nelson
+  146  sudo lid Nelson
+  147  ls /home
+  148  userdel ben
+  149  sudo userdel ben
+  150  ls /home
+  151  sudo userdel ben
+  152  ls /home
+  153  cat /etc/passwd | grep -i ben
+  154  cat /etc/passwd
+  155  ls /home
+  156  clear
+  157  w
+  158  who
+  159  clear
+  160  sudo vi  /etc/sudoers
+  161  vi /etc/ssh/sshd_config
+  162  sudo vi /etc/ssh/sshd_config
+  163  clear
+  164  sudo sed -i "/^[^#]*PasswordAuthentication[[:space:]]no/c\PasswordAuthentication yes" /etc/ssh/sshd_config
+  165  sudo service sshd restart
+  166  sudo vi /etc/ssh/sshd_config
+  167  su Nelson
+  168  useradd peter
+  169  sudo useradd peter
+  170  passwd peter
+  171  sudo passwd peter
+  172  ls /home
+  173  cat /etc/passwd
+  174  cat /etc/shadow
+  175  sudo cat /etc/shadow
+  176  clear
+  177  sudo echo "peter  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/peter
+  178  sudo -i
+  179  sudo hostname demo
+  180  sudo - ec2-user\
+  181  sudo - ec2-user
+  182  sudo su - ec2-user
+  183  su peter
+  184  w
+  185  su peter
+  186  chage peter
+  187  sudo chage peter
+  188  users
+  189  who
+  190  w
+  191  du
+  192  user
+  193  users
+  194  clear
+  195  tail /etc/passwd
+  196  sudo cat /etc/shadow
+  197  exit
+  198  clear
+  199  hostname
+  200  sudo hostname demo
+  201  sudo su - ec2-user
+  202  clear
+  203  sudo hostname webserver
+  204  exit
+  205  clear
+  206  ping google.com
+  207  clear
+  208  uptime
+  209  du -h
+  210  df 
+  211  df -h
+  212  free -m
+  213  clear
+  214  #cat /etc/sudoers
+  215  vim /etc/sudoers.d
+  216  vim /etc/sudoers
+  217  sudo vim /etc/sudoers
+  218  pwd
+  219  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39
+  220  vim class03-key.pem
+  221  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39
+  222  ssh -i "class03-key.pem" ec2-user@ec2.35.174.174.39
+  223  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  224  ls -l
+  225  chmod 400 class03-key.pm
+  226  sudo chmod 400 class03-key.pm
+  227  vi class03-key.pem
+  228  chmod 400 class03-key.pem
+  229  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  230  ll
+  231  scp -i class03-key.pem test-backup ec2-user@35.174.174.39:/home/ec2-user/
+  232  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  233  ssh ec2-user@2.35-174-174.39
+  234  ls /home/
+  235  cat /etc/shadow
+  236  sudo cat /etc/shadow
+  237  passwd ec2-user
+  238  sudo passwd ec2-user
+  239  sudo cat /etc/shadow
+  240  clear
+  241  ssh ec2-user@35.174.174.39
+  242  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  243  ssh ec2-user@35.174.174.39
+  244  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  245  sudo cat /etc/shadow
+  246  clear
+  247  ssh ec2-user@35.174.174.39
+  248  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  249  ssh ec2-user@35.174.174.39
+  250  ssh -i "class03-key.pem" ec2-user@ec2-52-201-233-19.compute-1.amazonaws.com
+  251  ssh ec2-user@52.201.233.19
+  252  ssh -i "class03-key.pem" ec2-user@ec2-35-174-174-39.compute-1.amazonaws.com
+  253  ssh ec2-user@35.174.174.39
+  254  ll
+  255  ls devops/
+  256  ls Devops/
+  257  scp Devops ec2-user@52.201.233.19
+  258  scp -r Devops ec2-user@52.201.233.19
+  259  scp -r Devops ec2-user@52.201.233.19:/home/ec2-user/
+  260  scp ec2-user@52.201.233.19
+  261  ssh ec2-user@52.201.233.19
+  262  clear
+  263  sudo hostname webserver
+  264  exit
+  265  clear
+  266  sudo hostname webserver
+  267  sudo su - ec2-user
+  268  ping appserver
+  269  ping 35.174.174.39
+  270  ping nfestatech.com
+  271  ping google.com
+  272  ll
+  273  ls /tmp/
+  274  pwd
+  275  cp news /tpm/
+  276  cd tpm
+  277  ll
+  278  ls /
+  279  ls tmp
+  280  cp new /tmp/
+  281  cp news news.sh
+  282  ll
+  283  cp news /tmp/news.user
+  284  ls /tmp/
+  285  clear
+  286  cal
+  287  cal 2024
+  288  clear
+  289  echo "Devops is good
+  290  echo "Devops is good"
+  291  echo "Devops is good" > msg.log
+  292  cat msg.log 
+  293  cat /etc/passwd | grep Nelson
+  294  echo "Devops is good when put interest/effort" | tee msg1.log
+  295  clear
+  296  script
+  297  ll
+  298  clear
+  299  ls
+  300  touch testing2
+  301  ll
+  302  cat typescript 
+  303  hostname webserver
+  304  sudo hostname webserver
+  305  ping 3.80.91.173
+  306  df -h
+  307  free -m
+  308  top
+  309  clear
+  310  ps
+  311  clear
+  312  telnet localhost:8080
+  313  whereis telnet
+  314  yum install telnet -y
+  315  sudo yum install telnet -y
+  316  telnet localhost:8080
+  317  telnet localhost:80
+  318  udo yum install telnet telnet-server -y
+  319  sudo yum install telnet telnet-server -y
+  320  history 
+  321  history > commands.txt
+  322  cat commands.txt 
+  323  ll
+  324  uname
+  325  uname -i
+  326  uname -r
+  327  cat /etc/os-release
+  328  cat /etc/*release
+  329  clear
+  330  netstat - tulpn
+  331  whereis netstat
+  332  sudo yum install net-tools -y
+  333  clear
+  334  netstat - tulpn
+  335  c
+  336  netstat -tulpn
+  337       \
+  338  watch
+  339  watch ls
+  340  sudo hostname webserver
+  341  sudo su - ec2-user
+  342  watch ls
+  343  shotdown
+  344  shutdown
+  345  sudo shutdown
+  346  shutdown -c
+  347  init 0
+  348  sudo init 0
+  349  clear
+  350  ls
+  351  whatis SHELL
+  352  whatis shell
+  353  clear
+  354  cat /etc/passwd
+  355  clear
+  356  sudo hostname webserver
+  357  sudo su - ec2-user
+  358  clear
+  359  sudo hostname webserver
+  360  ls 
+  361  clear
+  362  ls -l
+  363  clear
+  364  cat /etc/passwd
+  365  clear
+  366  $shell
+  367  echo $shell
+  368  echo $SHELLS
+  369  echo $SHELL
+  370  cat /etc/shells
+  371  clear
+  372  whatis echo
+  373  echo "DevOps is good when you put interest and effort"
+  374      
+  375  ll
+  376  rm Hello.sh 
+  377  ll
+  378  clear
+  379  ll
+  380  clear
+  381  vim hello.sh
+  382  ca hello.sh 
+  383  cat hello.sh 
+  384  ./hello.sh
+  385  ll hello.sh 
+  386  ll
+  387  clear
+  388  ll hello.sh 
+  389  clear
+  390  ./hello.sh
+  391  ls hello.sh 
+  392  ls -l hello.sh 
+  393  ll hello.sh 
+  394  chmod +x hello.sh 
+  395  ll hello.sh 
+  396  ./hello.sh
+  397  ll
+  398  chmod 755 testing2
+  399  ll
+  400  clear
+  401  ll
+  402  rm slc.sh 
+  403  ll
+  404  clear
+  405  vim slc.sh
+  406  ll slc.sh
+  407  sh slc.sh 
+  408  cat -n slc.sh 
+  409  ll
+  410  rm mlc.sh 
+  411  ll
+  412  clear
+  413  vim mlc.sh
+  414  ll
+  415  clear
+  416  sh mlc.sh 
+  417  cat -n mlc.sh 
+  418  echo 
+  419  echo $SHELL
+  420  ll
+  421  clear vim vars.sh
+  422  clear
+  423  vim vars.sh
+  424  sh vars.sh
+  425  cat vars.sh 
+  426  cat -n vars.sh 
+  427  vim vars.sh 
+  428  sh vars.sh 
+  429  whatis env
+  430  env
+  431  clear
+  432  sudo hostname webserver
+  433  sudo su - ec2-user
+  434  clear
+  435  vi .bashrc
+  436  echo $HISTSIZE
+  437  source .bashrc
+  438  echo $HISTSIZE
+  439  history 
+  440  clear
+  441  vim app.sh
+  442   app.sh
+  443   sh app.sh
+  444  echo "The Lord is good"
+  445  vim monitor_server.sh
+  446  sh monitor_server.sh
+  447  clear
+  448  cat monitor_server.sh
+  449  cat -n monitor_server.sh
+  450  sh monitor_server.sh
+  451  top
+  452    
+  453  df -h
+  454  clear
+  455  vim usd.sh
+  456  sh usd.sh
+  457  cat usd.sh 
+  458  vim 
+  459  vim boa_app.sh
+  460  sh boa_app.sh
+  461  vim boa_app.sh
+  462  sh boa_app.sh
+  463  cat -n boa_app.sh
+  464  vim boa_app.sh
+  465  sh boa_app.sh
+  466  sudo Nelson
+  467  sudo su Nelson
+  468  sudo su -i
+  469  sudo -i
+  470  clear
+  471  vim login.sh
+  472  sh login.sh
+  473  vim login.sh
+  474  sh login.sh
+  475  tail -5 /etc/passwd
+  476  clear
+  477  sh login.sh
+  478  clear
+  479  vim create_user.sh
+  480  sh create_user.sh
+  481  echo $?
+  482  tail /etc/passwd
+  483  sudo cat /etc/shadow
+  484  clear
+  485  vim create_user.sh
+  486  sh create_user.sh
+  487  tail -5 /etc/passwd
+  488  vim create_user.sh
+  489  sh create_user.sh
+  490  tail -5 /etc/passwd
+  491  sudo /etc/shadow
+  492  sudo cat /etc/shadow
+  493  clear
+  494  vim create_user.sh
+  495  sh create_user.sh
+  496  cat create_user.sh
+  497  clear
+  498  echo $?
+  499  cat nnnnn
+  500  echo $?
+  501  date
+  502  echo $?
+  503  Date
+  504  echo $?
+  505  ech $HISTSIZE 
+  506  echo $HISTSIZE 
+  507  hostnames
+  508  hostname
+  509  sudo hostname webserver
+  510  sudo su - ec2-user
+  511  echo $SHELL
+  512  echo $USER
+  513  expr 5 + 5
+  514  expr 10 % 3
+  515  echo the total is `expr 50 - 35`
+  516  clear
+  517  ll
+  518  clear
+  519  history 
+  520  clear
+  521  echo $HISTSIZE 
+  522  export HISTSIZE=1500
+  523  echo $HISTSIZE 
+  524  sudo su - ec2-user
+  525  clear
+  526  exit
+  527  ll
+  528  clear
+  529  vim script_checks.sh 
+  530  sh script_checks.sh 
+  531  vim script_checks.sh 
+  532  #sh script_checks.sh > script_checks.log
+  533  ll
+  534  sh script_checks.sh > script_checks.log
+  535  ll
+  536  cat script_checks.log 
+  537  sh script_checks.sh
+  538  clear
+  539  #sh script_checks.sh > script_checks.log
+  540  cat script_checks.log 
+  541  vim script_checks.sh 
+  542  sh script_checks.sh > script_checks.log
+  543  cat script_checks.log 
+  544  sh script_checks.sh 2> script_checks.log
+  545  cat script_checks.log 
+  546  sh script_checks.sh 1> script_checks.log
+  547  cat script_checks.log 
+  548  vim script_checks.sh 
+  549  cat script_checks.log 
+  550  sh script_checks.sh >> script_checks.log
+  551  cat script_checks.log 
+  552  sh script_checks.sh 1>> script_checks.log
+  553  cat script_checks.log 
+  554  vim script_checks.sh 
+  555  sh script_checks.sh 2>> script_checks.log
+  556  cat script_checks.log 
+  557  sh script_checks.sh > log  2>&1
+  558  cat log
+  559  clear
+  560  sh script_checks.sh > std_output.log
+  561  cat std_output.log 
+  562  sh script_checks.sh 2> std_error.log
+  563  cat std_error.log 
+  564  clear
+  565  sh script_checks.sh
+  566  sh -x script_checks.sh
+  567  vim script_checks.sh
+  568  tree
+  569  wget
+  570  whereis unzip
+  571  hostname
+  572  vim if1.sh
+  573  sh if1.sh
+  574  vim if1.sh
+  575  sh if1.sh
+  576  cat if1.sh 
+  577  cat -n if1.sh 
+  578  vim if1.sh
+  579  sh if1.sh
+  580  vim if2.sh
+  581  clear
+  582  sh if2.sh
+  583  clear
+  584  sudo hostname demo
+  585  sudo su - ec2-user
+  586  echo $rc
+  587    =expr $i + 1
+  588    =expr 1 + 1
+  589  expr $i + 1
+  590  echo $$
+  591  ls
+  592  echo $$
+  593  echo $?
+  594  echo $#
+  595  echo $$
+  596  cleae
+  597  clear
+  598  clea
+  599  echo $?
+  600  date
+  601  Date
+  602  echo $?
+  603  ggggg
+  604  echo $$
+  605  clear
+  606  ll
+  607  vim db_backup.sh
+  608  hostname
+  609  sudo hostname dome
+  610  hostname
+  611  clear
+  612  vim db_backup.sh
+  613  sh db_backup.sh dev sql2 festus
+  614  clear
+  615  vim db_backup.sh
+  616  sh db_backup.sh dev sql2 festus
+  617  $?
+  618  vim db_backup.sh
+  619  sh db_backup.sh dev sql2 festus
+  620  clear
+  621  f
+  622  clear
+  623  vim db_backup.sh
+  624  sh db_backup.sh dev sql2 festus
+  625  clear
+  626  expr 5 + 5
+  627  expr 5 \* 5
+  628  expr 10 / 3
+  629  expr 10 % 3
+  630  vim arth.sh
+  631  sh arth.sh
+  632  vim sao.sh
+  633  sh sao.sh
+  634  vim sao.sh
+  635  sh sao.sh
+  636  vim sao.sh
+  637  sh sao.sh
+  638  echo the sum is = expr 4000 + 2500
+  639  echo the sum is = `expr 4000 + 2500`
+  640  echo  "what is your name"
+  641  read name
+  642  echo  "your name is $name"
+  643  echo  "what is your name"
+  644  read name
+  645  echo  enter your pin 
+  646  read -s pin
+  647  echo  "your name is $name"
+  648  echo  "what is your name"
+  649  read name
+  650  echo  enter your pin 
+  651  read pin
+  652  echo  "your name is $name"
+  653  vim login2.sh
+  654  sh login2.sh
+  655  clear
+  656  ll
+  657  sh -x db_backup.sh
+  658  clear
+  659  vim script_checks.sh
+  660  sh script_checks.sh
+  661  vim script_checks.sh
+  662  sh script_checks.sh
+  663  sudo su - ec2-user
+  664  clear
+  665  sudo hostname demo
+  666  hostname
+  667  vim elif.sh
+  668  sh elif.sh
+  669  cat elif.sh
+  670  rm elif.sh 
+  671  ll
+  672  exit
+  673  clear
+  674  ll
+  675  clear
+  676  vim if3.sh
+  677  sh if3.sh
+  678  cat if3.sh
+  679  vim if3.sh 
+  680  sh if3.sh
+  681  vim if4.sh
+  682  sh if4.sh
+  683  clear
+  684  vim elif.sh
+  685  sh elif.sh
+  686  vim elif.sh
+  687  sh elif.sh
+  688  vim elif.sh
+  689  sh elif.sh
+  690  clear
+  691  if5.sh
+  692  vim if5.sh
+  693  sh if5.sh
+  694  clear
+  695  vim if6.sh
+  696  sh if6.sh
+  697  vim if6.sh
+  698  sh if6.sh
+  699  vim if6.sh
+  700  sh if6.sh
+  701  vim if6.sh
+  702  sh if6.sh
+  703  vim if6.sh
+  704  sh if6.sh
+  705  clear
+  706  vim arg.sh
+  707  sh arg.sh
+  708  sh arg.sh dev mysql festus
+  709  sh arg.sh dev mysql
+  710  vim arg.sh
+  711  sh arg.sh dev mysql
+  712  vim arg.sh
+  713  sh arg.sh dev mysql
+  714  vim arg.sh
+  715  sh arg.sh dev mysql
+  716  sh arg.sh dev mysql festus
+  717  vim arg.sh
+  718  vim arg2.sh
+  719  sh arg2.sh
+  720  vim arg2.sh
+  721  sh arg2.sh
+  722  sh arg2.sh uat appserver Aziz
+  723  df -h && ls
+  724  df -h &&
+  725  df -h
+  726  df -h ; ls
+  727  clear
+  728  vim fl1.sh
+  729  shfl1.sh
+  730  sh fl1.sh
+  731  vim fl1.sh
+  732  vim while.sh
+  733  sh while.sh
+  734  clear
+  735  sudo hostname
+  736  sudo hostname demo
+  737  sudo su - ec2-user
+  738  clear
+  739  hostname
+  740  sudo hostname demo
+  741  sudo su - ec2-user
+  742  clear
+  743  sc.sh
+  744  vi sc.sh
+  745  sh sc.sh
+  746  14
+  747  sh sc.sh
+  748  clear
+  749  vim app_cont-test.sh
+  750  sh app_cont-test.sh
+  751  bash app_cont-test.sh
+  752  vim app_cont-test.sh
+  753  sh app_cont-test.sh
+  754  clear
+  755  vim swc.sh
+  756  sh swc.sh
+  757  sh swc.sh start
+  758  sh swc.sh stop
+  759  sh swc.sh restart
+  760  cat swc.sh
+  761  clear
+  762  ll
+  763  cat deploy.sh 
+  764  ll
+  765  \
+  766  ll
+  767  ls -l
+  768  ls -lt
+  769  clear
+  770  ls -l devops/
+  771  ll
+  772  clear
+  773  ll devops/
+  774  clear
+  775  cat /etc/passwd
+  776  #cat /etc/passwd > user.log
+  777  cat user.log
+  778  clear
+  779  cat /etc/passwd > user_info.log
+  780  cat user_info.log 
+  781  clear
+  782  ll user_info.log 
+  783  pwd
+  784  cat  /home/ec2-user/user_info.log
+  785  clear
+  786  cat  /home/ec2-user/user_info.log
+  787  tail /etc/passwd
+  788  grep peter /etc/passwd
+  789  tail /etc/passwd > user_info.log 
+  790  cat user_info.log 
+  791  grep peter /etc/passwd >> user_info.log 
+  792  cat user_info.log 
+  793  vim debug_test.sh
+  794  sh debug_test.sh
+  795  vim debug_test.sh
+  796  sh debug_test.sh
+  797  vim debug_test.sh
+  798  sh -x debug_test.sh
+  799  vim debug_test.sh
+  800  h sh debug_test.sh 1> std_output.log 2> std_error.log
+  801  cat std_output.log
+  802   sh debug_test.sh 1> std_output.log 2> std_error.log
+  803  cat std_output.log
+  804  cat std_error.log
+  805  clear 
+  806  sudo hostname demo
+  807  sudo us - ec2-user
+  808  sudo su - ec2-user
+  809  clear
+  810  vim usermgt_fn.sh
+  811  sh usermgt_fn.sh
+  812  vim usermgt_fn.sh
+  813  sh usermgt_fn.sh
+  814  vim usermgt_fn.sh
+  815  sh usermgt_fn.sh
+  816  tail /etc/passwd
+  817  clear
+  818  vim usermgt2_fn.sh
+  819  sh usermgt2_fn.sh
+  820  vim usermgt2_fn.sh
+  821  sh usermgt2_fn.sh
+  822  tail /etc/passwd
+  823  sudo cat /etc/shadow
+  824  clear
+  825  #mkdir dems && cd dems
+  826  ll
+  827  clear
+  828  mkdir dems && cd dems
+  829  ll
+  830  vim usermgt3_fn.sh
+  831  sh usermgt3_fn.sh
+  832  echo $?
+  833  tail -5 /etc/passwd
+  834  sudo tail -5 /etc/shadow
+  835  clear
+  836  ]
+  837  clear
+  838  pwd
+  839  vim usermgr_check_fn.sh
+  840  sh usermgr_check_fn.sh
+  841   usermgr_check_fn.sh
+  842  vim usermgr_check_fn.sh
+  843  clear
+  844  sh usermgr_check_fn.sh
+  845  vim usermgr_check_fn.sh
+  846  clear
+  847  sh usermgr_check_fn.sh
+  848  clear
+  849  free -m
+  850  df -h
+  851  ll
+  852  top
+  853  clear
+  854  ll
+  855  cd de
+  856  ls /dems
+  857  ls  dems
+  858  clear
+  859  df -h
+  860  clear
+  861  vim monitor_server.sh
+  862  crontab -l
+  863  su Nelson
+  864  git status
+  865  clear
+  866  git status
+  867  clear
+  868  sudo yum install git -y
+  869  clear
+  870  git status
+  871  clear
+  872  mkdir toyota && cd toyota
+  873  ll
+  874  git status
+  875  clear
+  876  ll
+  877  vim deploy.py
+  878  sh deploy.py 
+  879  pythin deploy.py 
+  880  python deploy.py 
+  881  git status
+  882  ll
+  883  clear
+  884  ls
+  885  git init
+  886  ls
+  887  ls -a
+  888  ls .git
+  889  git status
+  890  git add deploy.py
+  891  git status
+  892  ll
+  893  cd /tmp/
+  894  ll
+  895  cat monitor_server.log 
+  896  cat monitor_server.log
+  897  sudo hostname web
+  898  sudo su - ec2-user
+  899  clear
+  900  sudo histname web
+  901  sudo hostname web
+  902  sudo su - ec2-user
+  903  clear\
+  904   ll
+  905  clear
+  906  cd toyota/
+  907  ll
+  908  git status
+  909  #git commit -m 'adding first version'
+  910  git status
+  911  git commit -m 'adding first version'
+  912  git status
+  913  git log
+  914  git show 048ac3f3b2
+  915  git 
+  916  clear
+  917  git log
+  918  git config --global user.name "festus nkeng"
+  919  git config --global user.email "festusnkeng@yahoo.com"
+  920  git remote -v 
+  921  git config --global --list
+  922  touch test.sh
+  923  git status
+  924  git add .
+  925  git status
+  926  git commit -m 'adding a secend file'
+  927  git log
+  928  clear
+  929  ls
+  930  git log
+  931  git show 5a46dc437
+  932  git show 048ac3f3b2
+  933  git status
+  934  clear
+  935  git remote add to https://github.com/nfestaclass02/toyota.git
+  936  git remote -v 
+  937  git push to
+  938  git push origin Master
+  939  git remote add to https://github.com/nfestaclass02/toyota.git
+  940  clear
+  941  git branch 
+  942  git push to master
+  943  clear
+  944  git push to master
+  945  git status
+  946  git branch
+  947  vim maven.sh
+  948  git status
+  949  touch save check test
+  950  git status
+  951  git add maven.sh
+  952  git status
+  953  git commit -m 'I added maven build file' maven.sh
+  954  git status
+  955  git log
+  956  git status
+  957  git push to master
+  958  git log
+  959  git show 0ede36d1b622b
+  960  ls
+  961  vim  maven.sh
+  962  git status
+  963  git add maven.sh
+  964  git status
+  965  git commit -m 'made change on maven file'
+  966  git status
+  967  git log
+  968  git show c3568d238
+  969  git push to master
+  970  git status
+  971  git pull
+  972  git pull to master
+  973  clear
+  974  cd toyota/
+  975  ll
+  976  git status
+  977  rm check save test
+  978  git status
+  979  ll
+  980  su Nelson
+  981  clear
+  982  git status
+  983  cat deploy.py 
+  984  git add 
+  985  git add .
+  986  gti status
+  987  clear
+  988  git status
+  989  git commit -m 'added a line of python code'
+  990  git log
+  991  git show c3568d238
+  992  git show 
+  993  git show e70d50317819
+  994  git push to master
+  995  git status
+  996  cat deploy.py 
+  997  git pull
+  998  git pull to master
+  999  cat deploy.py 
+ 1000  clear
+ 1001  git status
+ 1002  got log
+ 1003  clear
+ 1004  git log
+ 1005  clear
+ 1006  cat maven.sh 
+ 1007  git fetch
+ 1008  git status
+ 1009  git fetch to master
+ 1010  git status
+ 1011  cat maven.sh 
+ 1012  git status
+ 1013  git branch
+ 1014  git log
+ 1015  clear
+ 1016  git fetch to master
+ 1017  git status 
+ 1018  cat maven.sh 
+ 1019  git diff
+ 1020  git diff master
+ 1021  git pull to master
+ 1022  git status
+ 1023  cat maven.sh 
+ 1024  ls -a
+ 1025  touch .classpath .project && mkdir node_modules
+ 1026  ll
+ 1027  ls -a
+ 1028  git status
+ 1029  touch .gitignore
+ 1030  ls -a
+ 1031  mv .classpath .gitignore 
+ 1032  git status
+ 1033  mv .project .gitignore 
+ 1034  git add 
+ 1035  git status
+ 1036  git add .
+ 1037  git status
+ 1038  git commit -m ".gitignore file created"
+ 1039  git log
+ 1040  touch testing.sh
+ 1041  git status
+ 1042  echo testing the gitignore file functions > testing.sh 
+ 1043  git status
+ 1044  mv testing .gitignore 
+ 1045  mv testing.sh .gitignore 
+ 1046  git status
+ 1047  git commit -m "added a testins.sh to ignore"
+ 1048  git status
+ 1049  git commit -a -m "added a testins.sh to ignore"
+ 1050  clear
+ 1051  git branch
+ 1052  git branch DEV
+ 1053  git branch
+ 1054  git checkout DEV
+ 1055  git branch
+ 1056  ls -a
+ 1057  ls
+ 1058  diff master
+ 1059  deff master
+ 1060  git diff master
+ 1061  ls
+ 1062  vim deploy.py 
+ 1063  git status
+ 1064  git checkout master
+ 1065  git diff DEV
+ 1066  git branch 
+ 1067  git diff DEV
+ 1068  cat deploy.py 
+ 1069  git branch
+ 1070  git checkout DEV
+ 1071  cat deploy.py 
+ 1072  git status
+ 1073  git checkout DEV
+ 1074  git branch 
+ 1075  vim testing1.sh
+ 1076  git status
+ 1077  git diff master
+ 1078  git checkout master
+ 1079  cat testing1.sh 
+ 1080  git diff DEV
+ 1081  git branch
+ 1082  git checkout
+ 1083  git branch
+ 1084  git checkout DEV
+ 1085  git branch
+ 1086  git status
+ 1087  git add .
+ 1088  git status
+ 1089  git commit -m 'testing branch' testing1.sh
+ 1090  git status
+ 1091  git checkout master
+ 1092  git diff DEV
+ 1093  git branch
+ 1094  git status
+ 1095  git diff DEV
+ 1096  git checkout DEV
+ 1097  git status
+ 1098  git commit -m 'modified deploy.sh'
+ 1099  git status
+ 1100  git checkout master
+ 1101  git diff DEV
+ 1102  git merge 
+ 1103  git merge DEV
+ 1104  git status
+ 1105  git push to master
+ 1106  git push to DEV
+ 1107  git branch
+ 1108  git diff DEV
+ 1109  clear
+ 1110  ll
+ 1111  clear
+ 1112  sudo hostname web
+ 1113  sudo su - ec2-user\
+ 1114  sudo su - ec2-user
+ 1115  clear
+ 1116  ll
+ 1117  clear
+ 1118  cd toyota/
+ 1119  ll
+ 1120  clear
+ 1121  git status
+ 1122  # git fetch or git pull 
+ 1123  git status
+ 1124  git branch
+ 1125  git diff DEV
+ 1126  git status 
+ 1127  git pull
+ 1128  git pull to
+ 1129  clear
+ 1130  git pull to master
+ 1131  git pull DEV
+ 1132  git pull to  DEV
+ 1133  ll
+ 1134  ls -a
+ 1135  clear
+ 1136  git status
+ 1137  git pull 
+ 1138  git status
+ 1139  git pull to master
+ 1140  clear
+ 1141  cat deploy.py 
+ 1142  git pull to master
+ 1143  ll
+ 1144  cat deploy.py 
+ 1145  git diff DEV
+ 1146  git fetch to master
+ 1147  clear
+ 1148  ll
+ 1149  git checkout
+ 1150  git checkout DEV
+ 1151  git branch
+ 1152  git diff master
+ 1153  git pull to DEV
+ 1154  cat deploy.py 
+ 1155  git status
+ 1156  cat deploy.py 
+ 1157  git fetch to DEV
+ 1158  git status
+ 1159  cat deploy.py 
+ 1160  git log
+ 1161  git checkout master
+ 1162  git diff 
+ 1163  git diff DEV
+ 1164  git merge DEV
+ 1165  git branch
+ 1166  git diff DEV
+ 1167  git branch
+ 1168  git checkout DEV
+ 1169  git branch
+ 1170  git status
+ 1171  git diff master
+ 1172  git fetch DEV
+ 1173  git fetch to  DEV
+ 1174  git status
+ 1175  cat deploy.py 
+ 1176  git fetch to DEV
+ 1177  git status
+ 1178  git log
+ 1179  git show 
+ 1180  git show  c7a7375f47cca6
+ 1181  git branch
+ 1182  ll
+ 1183  cat deploy.py 
+ 1184  git pull to DEV
+ 1185  git diff master
+ 1186  git checkout master
+ 1187  git diff DEV
+ 1188  git merge DEV
+ 1189  cat deploy.py 
+ 1190  git status
+ 1191  git branch
+ 1192  git checkout DEV
+ 1193  git branch
+ 1194  ll
+ 1195  vim maven.sh 
+ 1196  git status
+ 1197  git commit -a -m 'we modified the our buld file'
+ 1198  git log
+ 1199  git show  6f222ff12a
+ 1200  git checkout master
+ 1201  git branch
+ 1202  git diff DEV
+ 1203  vim deploy.py 
+ 1204  vim maven.sh 
+ 1205  git status
+ 1206  git commit -a -m 'added a line of code in our build file'
+ 1207  git diff DEV
+ 1208  git checkout DEV
+ 1209  git diff master
+ 1210  g
+ 1211  git checkout master
+ 1212  git diff DEV
+ 1213  git merge DEV -m 'merging DEV change with master'
+ 1214  git status
+ 1215  git checkout DEV
+ 1216  git
+ 1217  git status
+ 1218  git merge DEV -m 'merging DEV change with master'
+ 1219  vim maven.sh 
+ 1220  git status
+ 1221  cat maven.sh 
+ 1222  git checkout DEV
+ 1223  git status
+ 1224  git commit -a -m 'resolving comflict'
+ 1225  git status
+ 1226  git checkout DEV
+ 1227  git status
+ 1228  git log 
+ 1229  git branch
+ 1230  git checkout master
+ 1231  git log
+ 1232  git checkout DEV
+ 1233  cat maven.sh 
+ 1234  git diff master
+ 1235  git status
+ 1236  git branch
+ 1237  git diff master
+ 1238  git checkout master
+ 1239  git diff DEV
+ 1240  git status
+ 1241  git push to master
+ 1242  git branch
+ 1243  git diff DEV
+ 1244  git checkout DEV
+ 1245  cat maven.sh 
+ 1246  git merge master
+ 1247  git status
+ 1248  cat maven.sh 
+ 1249  git checkout master
+ 1250  git diff DEV
+ 1251  cat maven.sh 
+ 1252  git branch
+ 1253  git checkout DEV
+ 1254  git branch
+ 1255  git status
+ 1256  git diff master
+ 1257  git push to DEV
+ 1258  git branch
+ 1259  git push to DEV
+ 1260  git branch
+ 1261  git branch stage
+ 1262  git branch
+ 1263  git checkout stage
+ 1264  ll
+ 1265  git branch
+ 1266  ll
+ 1267  c
+ 1268  clear
+ 1269  ls
+ 1270  echo apps deployment2 >> deploy.py 
+ 1271  git status
+ 1272  cat deploy.py 
+ 1273  git commit -a -m 'added deployment line'
+ 1274  git log
+ 1275  echo adding apps deployment3 
+ 1276  git status
+ 1277  echo adding apps deployment3 >> deploy.py 
+ 1278  git status
+ 1279  git commit -a -m 'added apps deplouyment3'
+ 1280  cat deploy.py 
+ 1281  git log
+ 1282  echo including apps deployment4 >> deploy.py 
+ 1283  git status
+ 1284  git commit -a -m 'included apps deployment4'
+ 1285  ]
+ 1286  git log
+ 1287  \
+ 1288  git branch
+ 1289  git checkout master
+ 1290  git status 
+ 1291  git log
+ 1292  clear
+ 1293  git diff stage
+ 1294  ]
+ 1295  git checkout stage
+ 1296  git log
+ 1297  branch
+ 1298  clear
+ 1299  git banch
+ 1300  git branch
+ 1301  git checkout master
+ 1302  git diff stage
+ 1303  git log
+ 1304  git diff stage
+ 1305  git log
+ 1306  git show 9504aef9e78
+ 1307  git checkout 
+ 1308  git checkout DEV
+ 1309  git diff stage
+ 1310  git log
+ 1311  git rebase stage
+ 1312  git log
+ 1313  git show fa5420afc8
+ 1314  git checkout stage
+ 1315  ls
+ 1316  cat test.shn 
+ 1317  cat test.sh
+ 1318  echo testing our git cherry-pick > test.sh
+ 1319  git status
+ 1320  git commit -a -m 'commit 1'
+ 1321  git log
+ 1322  echo add a line for testing >> test.sh
+ 1323  git status
+ 1324  g
+ 1325  git commit -a -m 'commit 2'
+ 1326  git branch
+ 1327  git checkout master
+ 1328  git diff stage
+ 1329  git log
+ 1330  git checkout stage
+ 1331  git log
+ 1332  git checkout master
+ 1333  git diff stage
+ 1334  git cherry-pick 4c0f306db24c28
+ 1335  git log
+ 1336  git diff stage
+ 1337  git cherry-pickb 10f5fa3ed76b
+ 1338  git cherry-pick 10f5fa3ed76b
+ 1339  git diff stage
+ 1340  git log
+ 1341  git checkout DEV
+ 1342  git diff stage
+ 1343  git merge stage
+ 1344  git log
+ 1345  git status
+ 1346  clear
+ 1347  sudo hostname web
+ 1348  sudo su - ec2-user
+ 1349  clear
+ 1350  ls
+ 1351  clear
+ 1352  cd toyota/
+ 1353  ls
+ 1354  git branch
+ 1355  git log
+ 1356  clear
+ 1357  git branch
+ 1358  git checkout stage
+ 1359  git branch
+ 1360  git push to master
+ 1361  git branch
+ 1362  git log
+ 1363  ls
+ 1364  git checkouts
+ 1365  clear
+ 1366  git checkout master
+ 1367  git diff stage
+ 1368  git push to master
+ 1369  git branch
+ 1370  clear
+ 1371  git checkout DEV
+ 1372  git branch
+ 1373  git push to master
+ 1374  git branch -d stage
+ 1375  clear
+ 1376  ls
+ 1377  cat deploy.py 
+ 1378  clear
+ 1379  git branch
+ 1380  git checkout master
+ 1381  git branch
+ 1382  git branch uat
+ 1383  git checkout uat
+ 1384  git branch
+ 1385  ls
+ 1386  vim deploy.py 
+ 1387  git status 
+ 1388  touch userinfo_dev
+ 1389  ls
+ 1390  ls -a
+ 1391  vim .gitignore 
+ 1392  git status
+ 1393  vim .gitignore
+ 1394  git status
+ 1395  git commit -a -m 'ignored usernfo_dev and modified deployment file'
+ 1396  git status 
+ 1397  git log
+ 1398  git branch master
+ 1399  git diff uat
+ 1400  git checkout mater
+ 1401  git checkout master
+ 1402  git branch
+ 1403  git diff uat
+ 1404   git merge uat -m 'rewiewed and approved'
+ 1405  git status
+ 1406  git diff uat
+ 1407  git log
+ 1408  git branch
+ 1409  git log
+ 1410  git checkout uat
+ 1411  git push to master
+ 1412  git status
+ 1413  git checkout master
+ 1414  ls
+ 1415  git push to master
+ 1416  git branc
+ 1417  git branch
+ 1418  git branch test_branch
+ 1419  git status
+ 1420  ls
+ 1421  vim maven.sh 
+ 1422  git status
+ 1423  git commit -a -m 'added a line of code'
+ 1424  git push to master
+ 1425  git pull to master
+ 1426  git branch
+ 1427  clear
+ 1428  sudo hsotname web
+ 1429  sudo hostname web
+ 1430  sudo su - ec2-user\
+ 1431  clear
+ 1432  sudo hostname web
+ 1433  sudo su - ec2-user
+ 1434  clear
+ 1435  cd toyota/
+ 1436  ls -a
+ 1437  git pull to master
+ 1438  git status
+ 1439  git branch
+ 1440  ssh-keygen
+ 1441  pwd
+ 1442  cd
+ 1443  ll
+ 1444  cd toyota/
+ 1445  pwd
+ 1446  git pull to master
+ 1447  clear
+ 1448  pwd
+ 1449  ssk-keygen
+ 1450  ssh-keygen
+ 1451  ssk-keygen
+ 1452  ssh-keygen
+ 1453  cat /home/ec2-user/.ssh/id_rsa.pub
+ 1454  clear
+ 1455  ssh -T git@github.com
+ 1456  ls
+ 1457  vim maven.sh 
+ 1458  git branch
+ 1459  git branch uat_monitor
+ 1460  git checkout uat_monitor
+ 1461  ls
+ 1462  git status
+ 1463  git branch
+ 1464  git diff master
+ 1465  git commit -a -m 'add line'
+ 1466  git diff master
+ 1467  git merge master
+ 1468  git remote -v
+ 1469  git push to master
+ 1470  git@github.com:nfestaclass02/toyota.git
+ 1471  cd
+ 1472  git clone git@github.com:nfestaclass02/toyota.git
+ 1473  cd toyota/
+ 1474  ssh -T git@github.com:nfestaclass02/toyota.git
+ 1475  ssh -T git@github.com
+ 1476  git push to master
+ 1477  cd
+ 1478  git clone git@github.com:nfestaclass02/toyota.git
+ 1479  git clone
+ 1480  clear
+ 1481  git clone git@github.com:mynfestatech02/toyota_project.git
+ 1482  cd toyota_project/
+ 1483  ll
+ 1484  git status
+ 1485  git branch
+ 1486  git remote add origin git@github.com:mynfestatech02/toyota_project.git
+ 1487  git remote -v
+ 1488  touch monitor.sh
+ 1489  ll
+ 1490  vim monitor.sh 
+ 1491  git status
+ 1492  vim README.md 
+ 1493  git status
+ 1494  git commit -a -m 'updated readme file' README.md
+ 1495  git add -A
+ 1496  git status
+ 1497  git commit -m 'added new file and updated readme file'
+ 1498  git status
+ 1499  git log
+ 1500  git push origin main
+ 1501  git branch uat_app_monitor
+ 1502  git branch
+ 1503  git checkout uat_app_monitor
+ 1504  git branch
+ 1505  echo all app deployment > deploy_app.sh
+ 1506  git status
+ 1507  git add .
+ 1508  git status
+ 1509  git commit -m 'adding app deployment file'
+ 1510  git log
+ 1511  git checkout main
+ 1512  git branch
+ 1513  git diff uat_app_monitor
+ 1514  git merge uat_app_monitor
+ 1515  git status
+ 1516  git checkout uat_app_monitor
+ 1517  git branch
+ 1518  git status
+ 1519  git push origin main
+ 1520  git push --force origin main
+ 1521  git branch
+ 1522  ls
+ 1523  vim monitor.sh 
+ 1524  git status
+ 1525  git commit -a -m 'updated monitor file'
+ 1526  git log
+ 1527  git push --force origin main
+ 1528  clear
+ 1529  sudo hostname web
+ 1530  sudo su - ec2-user
+ 1531  clear
+ 1532  cd toyota
+ 1533  ls
+ 1534  git remote -v
+ 1535  git branch
+ 1536  git status
+ 1537  git checkout master
+ 1538  git push to master
+ 1539  clear
+ 1540  git status
+ 1541  git remote -v
+ 1542  ls
+ 1543  git branch 
+ 1544  git pust to master
+ 1545  git push to master
+ 1546  git branch 
+ 1547  git diff uat
+ 1548  git merge uat
+ 1549  clear
+ 1550  ls
+ 1551  toyota
+ 1552  cd toyota
+ 1553  ls
+ 1554  clear
+ 1555  ls
+ 1556  git branch
+ 1557  git log
+ 1558  clear
+ 1559  git remore -v
+ 1560  git remote -v
+ 1561  clear
+ 1562  git branch
+ 1563  git pull to master
+ 1564  ls
+ 1565  cat maven.sh 
+ 1566  git status
+ 1567  clear
+ 1568  ]
+ 1569  git pull to master
+ 1570  cat maven.sh 
+ 1571  git branch feature_automate_RITM00233
+ 1572  git branch
+ 1573  git checkout feature_automate_RITM00233
+ 1574  clear
+ 1575  git branch
+ 1576  ls
+ 1577  clear
+ 1578  vim deploy.py 
+ 1579  git status
+ 1580  git commit -a -m 'adding service due alert'
+ 1581  git log
+ 1582  git diff master
+ 1583  git checkout master
+ 1584  git branch
+ 1585  git diff feature_automate_RITM00233
+ 1586  clear
+ 1587  git push to master
+ 1588  git branch
+ 1589  clear
+ 1590  sudo hostname web
+ 1591  sudo su - ec2-users
+ 1592  sudo su - ec2-user
+ 1593  clear
+ 1594  ls
+ 1595  cd toyota
+ 1596  ls
+ 1597  git branch
+ 1598  git tag toyota-v1.0.2
+ 1599  git tag -l
+ 1600  git tag --list
+ 1601  git remote -v 
+ 1602  git to tag toyota-v1.0.2 
+ 1603  git push to tag toyota-v1.0.2 
+ 1604  git branch
+ 1605  git tag -d tag toyota-v1.0.2
+ 1606  git tag -d toyota-v1.0.2
+ 1607  git tag -l
+ 1608  git status
+ 1609  git push to master
+ 1610  git pull to master
+ 1611  git status
+ 1612  git pull to master
+ 1613  clear
+ 1614  ls
+ 1615  git remote -v
+ 1616  clear
+ 1617  git pull to master
+ 1618  clear
+ 1619  git branch
+ 1620  #git tag toyota-v1.0.2
+ 1621  git tag --l
+ 1622  clear
+ 1623  git tag list
+ 1624  git tag toyota-v1.0.2
+ 1625  git tag list
+ 1626  clear 
+ 1627  git tag list
+ 1628  git tag --l
+ 1629  git tag --list
+ 1630  clear
+ 1631  git tag --list
+ 1632  git push to toyota-v1.0.2
+ 1633  ls
+ 1634  git tag --list
+ 1635  clear
+ 1636  ls
+ 1637  vim maven.sh 
+ 1638  git status
+ 1639  git commit -a -m 'update line of code'
+ 1640  git log
+ 1641  git push to master
+ 1642  git branch 
+ 1643  git tag --list
+ 1644  git tag toyota-v1.0.3
+ 1645  git tag --list
+ 1646  git push to tag tag toyota-v1.0.3
+ 1647  git push to tag toyota-v1.0.3
+ 1648  clear
+ 1649  git tag --list
+ 1650  git tag -d toyota-v1.0.2
+ 1651  git push --delete to toyota-v1.0.2
+ 1652  clear
+ 1653  ls
+ 1654  vim text.sh
+ 1655  vim list_eng
+ 1656  git status
+ 1657  git add .
+ 1658  git commit -m 'added list of project eng.'
+ 1659  git status
+ 1660  git log
+ 1661  clear
+ 1662  vim  list_eng 
+ 1663  git status
+ 1664  git stash list
+ 1665  git stash 
+ 1666  git stash list
+ 1667  git status
+ 1668  clear
+ 1669  ls
+ 1670  vim test.sh
+ 1671  git status
+ 1672  git stash
+ 1673  git stash list
+ 1674  vim userinfo_dev 
+ 1675  git status
+ 1676  vim userinfo_dev 
+ 1677  git status
+ 1678  clear
+ 1679  ls
+ 1680  vim deploy.py 
+ 1681  git status
+ 1682  git stash
+ 1683  git stash list
+ 1684  git status
+ 1685  clear
+ 1686  git stash apply
+ 1687  git commit -a -m 'update deplynment file'
+ 1688  git status
+ 1689  git stash list
+ 1690  git stash drop stash@{2}
+ 1691  git stash list
+ 1692  git stash pop stash@{1}
+ 1693  git stash list
+ 1694  git stash pop
+ 1695  git stash list
+ 1696  git status
+ 1697  git commit -a -m 'added line of code'
+ 1698  git status
+ 1699  clear
+ 1700  sudo hostname web
+ 1701  sudo su - ec2-user
+ 1702  hostname
+ 1703  sudo hostname web
+ 1704  sudo su - ec2-user
+ 1705  ls
+ 1706  cd toyota
+ 1707  ls
+ 1708  cat /etc/passwd
+ 1709  clear
+ 1710  ls -la ~/.ssh
+ 1711  rm -rf ~/.ssh
+ 1712  ls -la ~/.ssh
+ 1713  clear
+ 1714  cd
+ 1715  vim pat-sshupload.sh
+ 1716  ls
+ 1717  sh pat-sshupload.sh
+ 1718  vim pat-sshupload.sh
+ 1719  sh pat-sshupload.sh
+ 1720  ls -la ~/.ssh
+ 1721  rm -rf ~/.ssh
+ 1722  ls -la ~/.ssh
+ 1723  sh pat-sshupload.sh
+ 1724  vim pat-sshupload.sh
+ 1725  rm -rf ~/.ssh
+ 1726  sh pat-sshupload.sh
+ 1727  vim pat-sshupload.sh
+ 1728  ls -la ~/.ssh
+ 1729  rm -rf ~/.ssh
+ 1730  cp pat-sshupload.sh /home/peter/pat-sshupload.sh
+ 1731  sudo su
+ 1732  history 
+ 1733  cat /etc/ssh/sshd_config
+ 1734  sudo vim /etc/ssh/sshd_config
+ 1735  sudo vim  /etc/sudoers.d
+ 1736  vim /etc/ssh/sshd_config
+ 1737  sudo vim /etc/ssh/sshd_config
+ 1738  sudo vim /etc/sudoers
+ 1739  sudo vim /etc/ssh/sshd_config
+ 1740  su peter
+ 1741  sudo su
+ 1742  exit
+ 1743  clear
+ 1744  sudo hostname web
+ 1745  sudo su - ec2-user
+ 1746  exit
+ 1747  clear
+ 1748  mkdir test_ssh_access
+ 1749  cd test_ssh_access/
+ 1750  ll
+ 1751  git init
+ 1752  git status
+ 1753  clear
+ 1754  git branch
+ 1755  ssh keygen
+ 1756  clear
+ 1757  ssh-keygen
+ 1758  ls -l /.ssh
+ 1759  ls -l (/home/ec2-user/.ssh/id_rsa)
+ 1760  ls -l /home/ec2-user/.ssh/id_rsa
+ 1761  ls -l /home/ec2-user/.ssh/
+ 1762  cat id_rsa.pub
+ 1763  cat /home/ec2-user/.ssh/id_rsa
+ 1764  ls -l /home/ec2-user/.ssh/
+ 1765  cat /home/ec2-user/.ssh/id_rsa.pub
+ 1766  git remote add https://github.com/nfestaclass02/toyota.git
+ 1767  git remote add https https://github.com/nfestaclass02/toyota.git
+ 1768  git remote -v
+ 1769  git pull sttps master
+ 1770  git clone https://github.com/nfestaclass02/toyota.git
+ 1771   ls 
+ 1772  cd toyota/
+ 1773  ls
+ 1774  vim maven.sh 
+ 1775  git status 
+ 1776  git bracnh 
+ 1777  git branch
+ 1778  git commit -a -m 'added line of code'
+ 1779  git push sttps master
+ 1780  git push https master
+ 1781  git remote -v
+ 1782  git push origin master
+ 1783  clear
+ 1784  git branch 
+ 1785  git branch checking_b_push
+ 1786  git branch 
+ 1787  git checkout checking_b_push
+ 1788  git branch 
+ 1789  ls
+ 1790  vim test.sh 
+ 1791  git status 
+ 1792  git commit -a -m 'adding a line of code'
+ 1793  git push origin --all
+ 1794  git diff master
+ 1795  git checkout master
+ 1796  git diff checking_b_push
+ 1797  git merge  checking_b_push
+ 1798  git push origin master
+ 1799  git pull origin master
+ 1800  git push origin master
+ 1801  git branch
+ 1802  git branch db_scripts
+ 1803  git checkout db_scripts
+ 1804  git branch
+ 1805  ls
+ 1806  vim deploy.py 
+ 1807  git status
+ 1808  git add .
+ 1809  git git status
+ 1810  git status
+ 1811  git commt -m 'added db script file'
+ 1812  git commit -m 'added db script file'
+ 1813  git diff master
+ 1814  git checkout master
+ 1815  ls
+ 1816  git branch
+ 1817  git diff db_scripts
+ 1818  git merge db_scripts
+ 1819  git checkout db_scripts
+ 1820  git push origin 
+ 1821  git push origin db_scripts
+ 1822  \
+ 1823  clear
+ 1824  git remote -v\
+ 1825  git remote -v
+ 1826  git remote add ss git@github.com:nfestaclass02/toyota.git
+ 1827  git remote -v
+ 1828  ls 
+ 1829  git branch
+ 1830  git diff db_scripts
+ 1831  git checkout master
+ 1832  git pull master
+ 1833  git merge master
+ 1834  git checkout master
+ 1835  git push origin master
+ 1836  git pull origin master
+ 1837  git status 
+ 1838  git checkout master
+ 1839  git remote -v
+ 1840  at ~/.ssh/id_rsa.pub
+ 1841  cat ~/.ssh/id_rsa.pub
+ 1842  clear
+ 1843  git branch
+ 1844  ls
+ 1845  vim test.sh 
+ 1846  git status
+ 1847  git commit -a -m 'added a line of code'
+ 1848  git push ss master 
+ 1849  clear
+ 1850  vim ssh-pat.sh
+ 1851  sh ssh-pat.sh 
+ 1852  vim ssh-pat.sh 
+ 1853  vim ssh-pat.sh
+ 1854  sh ssh-pat.sh 
+ 1855  vim ssh-pat.sh
+ 1856  sh ssh-pat.sh 
+ 1857  clear
+ 1858  ll
+ 1859  clear
+ 1860  sudo hostname web
+ 1861  sudo su - ec2-user
+ 1862  ls
+ 1863  clear
+ 1864  ls
+ 1865  cd toyota/
+ 1866  ls
+ 1867  git status
+ 1868  git branch
+ 1869  git pull
+ 1870  git remote -v
+ 1871  git pull to master
+ 1872  clear
+ 1873  ls
+ 1874  cd toyota
+ 1875  ls
+ 1876  git status
+ 1877  git remote -v
+ 1878  ls
+ 1879  clear
+ 1880  git remote -v
+ 1881  ls
+ 1882  cd toyota
+ 1883  ls
+ 1884  git remote -v
+ 1885  cd
+ 1886  sudo hostname web
+ 1887  sudo us - ec2-user
+ 1888  sudo su - ec2-user
+ 1889  cd test_ssh_access/
+ 1890  ls
+ 1891  cd toyota/
+ 1892  git remote -v
+ 1893  clear
+ 1894  git remote -v
+ 1895  clear
+ 1896  git pull ss master
+ 1897  ls -la ~/.ssh 
+ 1898  ls
+ 1899  vim ssh-pat.sh 
+ 1900  tail /etc/passwd
+ 1901  ls -la ~/.ssh 
+ 1902  rm ~/.ssh 
+ 1903  rm -rf ~/.ssh 
+ 1904  ls
+ 1905  sh ssh-pat.sh 
+ 1906  ls -la ~/.ssh 
+ 1907  vim ssh-pat.sh 
+ 1908  sh ssh-pat.sh 
+ 1909  rm -rf ~/.ssh 
+ 1910  sh ssh-pat.sh 
+ 1911  vim ssh-pat.sh 
+ 1912  rm -rf ~/.ssh 
+ 1913  sh ssh-pat.sh 
+ 1914  vim ssh-pat.sh 
+ 1915  curl -X POST -H "content-type: application/json" -d "{\"title\": \"SSHKEY\",\"key\": \"$sshkey\"}" "https://api.github.com/user/keys?access_token=$token"
+ 1916  sh ssh-pat.sh 
+ 1917  rm -rf ~/.ssh 
+ 1918  sh ssh-pat.sh 
+ 1919  vim ssh-pat.sh 
+ 1920  rm -rf ~/.ssh 
+ 1921  sh ssh-pat.sh 
+ 1922  rm -rf ~/.ssh 
+ 1923  vim ssh-pat.sh 
+ 1924  ls
+ 1925  clear
+ 1926  ls -la ~/.ssh
+ 1927  sshkey=`cat ~/.ssh/id_rsa.pub`
+ 1928  if [ $? -eq 0 ]; echo 'Copying the key t GitHub account'; curl -X POST -H "content-type: application/json" -d "{\"title\": \"SSHKEY\",\"key\": \"$sshkey\"}" "https://api.github.com/user/keys?access_token=$token"
+ 1929  sshkey=`cat ~/.ssh/id_rsa.pub`
+ 1930  ls -la ~/.ssh
+ 1931  \
+ 1932  clear
+ 1933  ls
+ 1934  clear
+ 1935  sudo hostname web
+ 1936  sudo su - ec2-user
+ 1937  ls
+ 1938  cd test_ssh_access/
+ 1939  clear
+ 1940  git remote -v
+ 1941  cd 
+ 1942  mkdir final_git
+ 1943  cd final_git/
+ 1944  LS
+ 1945  ls
+ 1946  clear
+ 1947  git clone https://github.com/nfestaclass02/toyota.git
+ 1948  ls 
+ 1949  cd toyota/
+ 1950  ls
+ 1951  cd ..
+ 1952  cd +
+ 1953  cd -
+ 1954  clear
+ 1955  git remote -v
+ 1956  git remote add final https://github.com/nfestaclass02/toyota.git
+ 1957  git remote -v
+ 1958  git remote add ssh git@github.com:nfestaclass02/toyota.git
+ 1959  git remote -v
+ 1960  ls
+ 1961  cat gosple 
+ 1962  git status
+ 1963  git branch 
+ 1964  echo 'we will forever praise him' >> gosple
+ 1965  git status
+ 1966  git commit -a -m 'fnal steps touch on git/github'
+ 1967  git log
+ 1968  git push final master
+ 1969  echo 'we will forever praise him at all times' >> gosple
+ 1970  git status
+ 1971  git commit -a -m 'fnal steps touches on git/github'
+ 1972  git log
+ 1973  ls -la ~/.ssh
+ 1974  clear
+ 1975  ls -rf ~/.ssh
+ 1976  rm -rf ~/.ssh
+ 1977  ls -la ~/.ssh
+ 1978  ssh-keygen
+ 1979  ls -la ~/.ssh
+ 1980  cat /.ssh/id_rsa.pub
+ 1981  cat ~/.ssh/id_rsa.pub
+ 1982  clear
+ 1983  git log
+ 1984  clear
+ 1985  git push ssh master
+ 1986  ls
+ 1987  cat 
+ 1988  clear
+ 1989  vim deploy.py 
+ 1990  clear
+ 1991  ls
+ 1992  cd test_ssh_access/
+ 1993  ls
+ 1994  cd toyota/
+ 1995  clear
+ 1996  vim sshkey_upload.sh
+ 1997  sh sshkey_upload.sh 
+ 1998  sshkey=`cat ~/.ssh/id_rsa.pub`
+ 1999  $?
+ 2000  $$
+ 2001  sudo $?
+ 2002  $?
+ 2003  sshkey=`cat ~/.ssh/id_rsa.pub`
+ 2004  $?
+ 2005  history 
+ 2006  clear
+ 2007  history 
+ 2008  clear
+ 2009  cp `history` > history.txt
+ 2010  history > history.txt
