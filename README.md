@@ -25,23 +25,24 @@ sudo su - ec2-user
 
 2.
  Download, extract and Install Maven
- #Step1) Download the Maven Software
+Step i) Download the Maven Software
 sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.zip #make sure to get the latest version
 >>mm
-sudo unzip apache-maven-3.9.3-bin.zip
-sudo rm -rf apache-maven-3.9.3-bin.zip
-sudo mv apache-maven-3.9.3/ maven
+ii. sudo unzip apache-maven-3.9.3-bin.zip
+iii. sudo rm -rf apache-maven-3.9.3-bin.zip
+iv. sudo mv apache-maven-3.9.3/ maven
 mm
 
 
 3.
-.#Step3) Set Environmental Variable - For Specific User eg ec2-user
+Step3) Set Environmental Variable - For Specific User eg ec2-user
 
 vi ~/.bash_profile  # and add the lines below
 export M2_HOME=/opt/maven
 export PATH=$PATH:$M2_HOME/bin
 
-#Step4) Refresh the profile file and Verify if maven is running
+4.
+step4) Refresh the profile file and Verify if maven is running
 
 source ~/.bash_profile
 mvn -version
