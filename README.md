@@ -14,7 +14,7 @@ Install java openJDK 1.8+
 - Install Java JDK 11+ and other softares (GIT, wget and tree)
 # install Java JDK 11+ as a pre-requisit for maven to run.
 
-sudo hostnamectl set-hostname maven
+sudo hostname maven # set hostname maven
 sudo su - ec2-user
 cd /opt
 sudo yum install wget vim nano tree unzip git-all -y
@@ -26,11 +26,11 @@ sudo su - ec2-user
 2
  Download, extract and Install Maven
  #Step1) Download the Maven Software
-sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.zip #make sure to get the latest version
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.zip #make sure to get the latest version
 >>mm
-sudo unzip apache-maven-3.9.2-bin.zip
-sudo rm -rf apache-maven-3.9.2-bin.zip
-sudo mv apache-maven-3.9.2/ maven
+sudo unzip apache-maven-3.9.3-bin.zip
+sudo rm -rf apache-maven-3.9.3-bin.zip
+sudo mv apache-maven-3.9.3/ maven
 mm
 
 
